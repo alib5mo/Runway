@@ -17,24 +17,24 @@ class CategoriesScreen extends StatefulWidget {
 class _CategoriesScreenState extends State<CategoriesScreen> {
   List<ProductModel> products = [
     ProductModel(
-      name: "Top man black",
+      name: "Top man black ",
       image: "assets/model/image 1.png",
       price: '\$10.99',
     ),
     ProductModel(
       name: "Deep gray essential regul..",
       image: "assets/model/image 2.png",
-      price: '10.99',
+      price: '\$10.99',
     ),
     ProductModel(
       name: "Top man black with Trous..",
       image: "assets/model/image 3.png",
-      price: '10.99',
+      price: '\$10.99',
     ),
     ProductModel(
       name: "Gray coat and white T-sh..",
       image: "assets/model/image 4.png",
-      price: '10.99',
+      price: '\$10.99',
     ),
   ];
 

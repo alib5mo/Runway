@@ -33,7 +33,7 @@ class _ProductDetailsState extends State<ProductDetails> {
         return DraggableScrollableSheet(
           initialChildSize: 0.2,
           minChildSize: 0.17,
-          maxChildSize: 0.8,
+          maxChildSize: 0.4,
           expand: false,
           builder: (BuildContext context, ScrollController scrollController) {
             return Container(
@@ -85,6 +85,49 @@ class _ProductDetailsState extends State<ProductDetails> {
                       ),
                       SvgPicture.asset('assets/svg/heart.svg'),
                     ],
+                  ),
+                  Gap(30),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Select colour',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+
+                      SvgPicture.asset('assets/svg/Frame 39639.svg'),
+                      Text(
+                        'Select size',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+
+                      SvgPicture.asset('assets/svg/Frame 39639.svg'),
+                    ],
+                  ),
+                  Gap(50),
+                  Container(
+                    height: 55,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'ADD TO BAG',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),
