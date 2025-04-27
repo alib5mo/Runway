@@ -17,7 +17,7 @@ class CategoriesScreen extends StatefulWidget {
 class _CategoriesScreenState extends State<CategoriesScreen> {
   List<ProductModel> products = [
     ProductModel(
-      name: "Top man black",
+      name: "Top man black ",
       image: "assets/model/image 1.png",
       price: '\$10.99',
     ),
